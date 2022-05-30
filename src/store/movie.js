@@ -23,7 +23,7 @@ export default {
       })
     },
     resetMovies(state) {
-      // state.movies = [];
+      state.movies = [];
       state.message = _defaultMessage;
       state.loading = false;
     }
@@ -38,12 +38,6 @@ export default {
       commit('updateState', {
         message: '',
         loading: true,
-        searchData: {
-          title: payload.title,
-          type: payload.type,
-          number: payload.number,
-          year: payload.year
-        }
       });
       try {
         const res = await _fetchMovie({

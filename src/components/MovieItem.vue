@@ -77,7 +77,6 @@ export default {
       height: 100%;
       border: 5px solid $primary;
 
-
     }
     .info {
       background-color: rgba($black, .3);

@@ -27,7 +27,7 @@
     <button
       class="btn btn-primary"
       @click="apply">
-      apply
+      Apply
     </button>
   </div>
 </template>
